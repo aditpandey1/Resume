@@ -2,7 +2,7 @@ body{
 	margin: 0px;
 }
 #body-header{
-	width: 100vw;
+	width: 100%;
 	height: 65vh;
 	background-image: url(images/macbook_mouse.jpg);
 	background-size: cover;
@@ -58,7 +58,7 @@ body{
 	box-shadow: 0px 0px 6px 4px  rgba(230, 196, 196, 0.3) ;
 }
 #about{
-	width: 100vw;
+	
 	height: auto;
 	position: relative;
 }
@@ -83,12 +83,13 @@ body{
 	color: grey;
 }
 section{
-	width: 100vw;
+	width: 100%;
 	height: auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding: 2rem 0 2rem 0;
+	/*border: 1px solid black;*/
 }
 .section-heading span{
 	font-size: 3rem;
@@ -162,7 +163,8 @@ section:nth-child(even){
 	justify-content: space-around;
 }
 .portfolio-content div{
-	width: 13rem;
+	width:13rem ;
+	/*min-width: 7rem;*/
 	height: 13rem;
 	margin: 1rem;
 }
@@ -216,6 +218,7 @@ section:nth-child(even){
 }
 #contact-content>div{
 	width: 25rem;
+	margin: 3rem;
 	
 }
 #address-getintouch h2,p,span {
@@ -231,14 +234,14 @@ color: white;
 .timeline{
 	width: 70%;
 	height: auto;
-	/*border: 1px solid black;*/
+	border: 1px solid black;
 	position: relative;
 }
 .timeline-box{
 	width: 40%;
 	position: relative;
 	left: 5%;
-	/*border: 1px solid black;*/
+	border: 1px solid black;
 	min-height: 150px;
 }
 .timeline-box:nth-child(even){
@@ -292,7 +295,6 @@ color: white;
 	position: sticky;
 	top:50vh;
 	font-size: 2rem;
-	/*margin-left: -1.2vw;*/
 	transform: rotate(90deg);
 	color: blue;
 	z-index: 2;
@@ -319,6 +321,38 @@ color: white;
 	top: 30%;
 	z-index: 1;
 }
+
+@media screen and (max-width: 748px){
+	.timeline{
+		width: 90%;
+	}
+	.timeline-box{
+		width: 85%;
+	
+		left: 15%;
+	}
+	.timeline-divider{
+		left: 7.5%;
+	}
+	.timeline-box:nth-child(odd)::after{
+		left: -10%;
+	}
+	.timeline-box:nth-child(even)::after{
+		left: -10%;
+	}
+
+    .timeline-box:nth-child(even){
+	left:15%;
+    }
+    html{
+    	font-size: 12px;
+    }
+    #my-photo{
+    	margin-top: -17vh;
+    }
+
+}
+
 
 
 
