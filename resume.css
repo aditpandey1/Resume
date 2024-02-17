@@ -4,7 +4,7 @@ body{
 #body-header{
 	width: 100%;
 	height: 65vh;
-	background-image: url(images/macbook_mouse.jpg);
+	background-image: url(images/macbook_mouse.jpg) ;
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
@@ -234,14 +234,14 @@ color: white;
 .timeline{
 	width: 70%;
 	height: auto;
-	
+	border: 1px solid black;
 	position: relative;
 }
 .timeline-box{
 	width: 40%;
 	position: relative;
 	left: 5%;
-	
+	border: 1px solid black;
 	min-height: 150px;
 }
 .timeline-box:nth-child(even){
@@ -321,6 +321,33 @@ color: white;
 	top: 30%;
 	z-index: 1;
 }
+.dropdown{
+	display: none;
+	width: 100%;
+	position: absolute;
+}
+.dropdown ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display: none;
+}
+.dropdown ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 1rem;
+	display: inline-block;
+	margin-top: .3rem;
+
+}
+#hamburger-icon{
+
+	color: white;
+    width: 100%;
+    text-align: right;
+	font-size: 2rem;
+	margin-right: 1rem;
+}
 
 @media screen and (max-width: 748px){
 	.timeline{
@@ -352,6 +379,31 @@ color: white;
     }
 
 }
+@media screen and (max-width:572px){    
+#nav-list {
+	visibility: hidden;
+}
+
+.dropdown {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	visibility: visible;
+	position: absolute;
+}
+#hamburger-icon:hover + .dropdown-list{
+	display: initial;
+}
+.dropdown-list:hover{
+	display: initial;
+}
+}
+
+
+
+
+
+
 
 
 
