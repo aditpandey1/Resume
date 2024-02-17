@@ -234,14 +234,14 @@ color: white;
 .timeline{
 	width: 70%;
 	height: auto;
-	border: 1px solid black;
+	
 	position: relative;
 }
 .timeline-box{
 	width: 40%;
 	position: relative;
 	left: 5%;
-	border: 1px solid black;
+	
 	min-height: 150px;
 }
 .timeline-box:nth-child(even){
