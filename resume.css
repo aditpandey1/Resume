@@ -1,5 +1,6 @@
 body{
-	margin: 0px;
+	margin: 0px ;
+	font-family: sans-serif;
 }
 #body-header{
 	width: 100%;
@@ -38,7 +39,7 @@ body{
 	border-bottom: 1px solid white;
 }
 #name-social-container{
-	margin-top:20vh ;
+	margin-top:17vh ;
 }
 #name{
 	font-size: 5rem;
@@ -389,11 +390,10 @@ color: white;
 #nav-list li {
 display: none;
 }
-#body-header{
-  margin-top: -11.7rem;
-}
+
 #name-social-container{
-	padding-top: 12rem;
+	margin-top: 0px;
+	padding-top: 22vh;
 }
 
 .dropdown {
@@ -413,6 +413,21 @@ display: none;
 
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
