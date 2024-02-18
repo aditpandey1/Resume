@@ -285,10 +285,10 @@ color: white;
 .timeline-divider{
 	height: 75%;
 	width: 0;
-	border: 3px dashed grey;
+	border: 2px dashed grey;
     position: absolute;
 	left: 50%;
-	top: 10%;
+	top: 8%;
 
 }
 .timeline-traveller{
@@ -331,7 +331,7 @@ color: white;
 	margin: 0px;
 	padding: 0px;
 	display: none;
-	background-color:lightgrey;
+	background-color:#828470;
 	margin-right:1rem;
 }
 .dropdown ul li a{
@@ -340,6 +340,7 @@ color: white;
 	font-size: 2rem;
 	display: inline-block;
 	margin-top: .3rem;
+	padding: .5rem;
 
 }
 #hamburger-icon{
@@ -347,8 +348,11 @@ color: white;
 	color: white;
     width: 100%;
     text-align: right;
-	font-size: 2rem;
+	font-size: 3.5rem;
 	margin-right: 1rem;
+		padding-top: 2rem;
+		padding-right:1rem ;
+
 }
 
 @media screen and (max-width: 748px){
@@ -357,7 +361,7 @@ color: white;
 	}
 	.timeline-box{
 		width: 85%;
-	
+	    margin-bottom: 2rem;
 		left: 15%;
 	}
 	.timeline-divider{
@@ -382,8 +386,14 @@ color: white;
 
 }
 @media screen and (max-width:572px){    
-#nav-list {
-	visibility: hidden;
+#nav-list li {
+display: none;
+}
+#body-header{
+  margin-top: -11.7rem;
+}
+#name-social-container{
+	padding-top: 12rem;
 }
 
 .dropdown {
@@ -399,7 +409,26 @@ color: white;
 .dropdown-list:hover{
 	display: initial;
 }
+#hamburger-icon{
+
 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
