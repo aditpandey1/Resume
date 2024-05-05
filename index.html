@@ -8,29 +8,32 @@
 	<script src="https://kit.fontawesome.com/2bfc5e779f.js" crossorigin="anonymous"></script>
 </head>
 <body>
+	<div id="percentage">
+		
+	</div>
  <header id="body-header">
 	<nav>
 		<ul class="horizontal-list text-center" id="nav-list">
 			<li id="ad">
-				<a href="#">Home</a>
+				<a href="#" class="nav-list-item">Home</a>
 			</li>
 			<li>
-				<a href="#about">About</a>
+				<a href="#about" data-value="about" class="nav-list-item">About</a>
 			</li>
 			<li>
-				<a href="#skills">Skills</a>
+				<a href="#skills" data-value="skills" class="nav-list-item">Skills</a>
+			</li>
+			<li id="as">
+				<a href="#experience" data-value="experience" class="nav-list-item">Experience</a>
 			</li>
 			<li>
-				<a href="#experience">Experience</a>
+				<a href="#education" data-value="education" class="nav-list-item">Education</a>
 			</li>
 			<li>
-				<a href="#education">Education</a>
+				<a href="#portfolio" data-value="portfolio" class="nav-list-item">Portfolio</a>
 			</li>
 			<li>
-				<a href="#portfolio">Portfolio</a>
-			</li>
-			<li>
-				<a href="#contact">Contact</a>
+				<a href="#contact" data-value="contact" class="nav-list-item">Contact</a>
 			</li>
 			
 		</ul>
@@ -39,26 +42,26 @@
 			<i class="fa-solid fa-bars"></i>
 		</div>
 		<ul class="dropdown-list">
-			<li>
-		<a href="#">Home</a>
+			<li id="ad">
+				<a href="#" class="nav-list-item">Home</a>
 			</li>
 			<li>
-				<a href="#about">About</a>
+				<a href="#about" data-value="about" class="nav-list-item">About</a>
 			</li>
 			<li>
-				<a href="#skills">Skills</a>
+				<a href="#skills" data-value="skills" class="nav-list-item">Skills</a>
+			</li>
+			<li id="as">
+				<a href="#experience" data-value="experience" class="nav-list-item">Experience</a>
 			</li>
 			<li>
-				<a href="#experience">Experience</a>
+				<a href="#education" data-value="education" class="nav-list-item">Education</a>
 			</li>
 			<li>
-				<a href="#education">Education</a>
+				<a href="#portfolio" data-value="portfolio" class="nav-list-item">Portfolio</a>
 			</li>
 			<li>
-				<a href="#portfolio">Portfolio</a>
-			</li>
-			<li>
-				<a href="#contact">Contact</a>
+				<a href="#contact" data-value="contact" class="nav-list-item">Contact</a>
 			</li>
 		</ul>
 	</div>
@@ -116,28 +119,28 @@ Delhi's urban agglomeration, which includes the <span style="color:#2857a4;">sat
     	</h1>
     	<div class="skills-display">
              <div class="skill-container">
-             	<div class="percent90 b-darkred"><span>C++</span></div>
+             	<div class="percent90 b-darkred" data="90%"><span>C++</span></div>
              </div>
              <div class="skill-container ">
-             	<div class="percent50 b-orange"><span>java</span></div>
+             	<div class="percent50 b-orange" data="50%"><span>java</span></div>
              </div>
              <div class="skill-container ">
-             	<div class="percent90 b-yellowgreen"><span>Html</span></div>
+             	<div class="percent90 b-yellowgreen" data="90%"><span>Html</span></div>
              </div>
              <div class="skill-container ">
-             	<div class="percent70 b-sandybrown"><span>Css</span></div>
+             	<div class="percent70 b-sandybrown" data="70%"><span>Css</span></div>
              </div>
              <div class="skill-container ">
-             	<div class="percent30 b-lightgreen"><span>JavaScript</span></div>
+             	<div class="percent30 b-lightgreen" data="30%"><span>JavaScript</span></div>
              </div>
              <div class="skill-container">
-             	<div class="percent60 b-darkred"><span>ios</span></div>
+             	<div class="percent60 b-darkred" data="60%"><span>ios</span></div>
              </div>
              <div class="skill-container">
-             	<div class="percent30 b-sandybrown"><span>Android</span></div>
+             	<div class="percent30 b-sandybrown" data="30%"><span>Android</span></div>
              </div>
-             <div class="skill-container b-lightgreen">
-             	<div class="percent50"><span>Ai/Ml</span></div>
+             <div class="skill-container ">
+             	<div class="percent50 b-lightgreen"  data="50%"><span>Ai/Ml</span></div>
              </div>
     	</div>
     </section>
@@ -371,5 +374,6 @@ Delhi's urban agglomeration, which includes the <span style="color:#2857a4;">sat
 	</div>
     </section> 
 </main>
+<script type="text/javascript" src="resume.js"></script>
 </body>
 </html>
