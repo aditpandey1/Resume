@@ -446,6 +446,23 @@ display: none;
 
 }
 
+#percentage{
+	text-align: center;
+	font-size: 1.2rem;
+	z-index: 500;
+	position: fixed;
+	right: 3%;
+	top: 3%;
+	width: 15rem;
+	height: 2rem;
+	padding-top: .4rem;
+	color: green;
+	background-color: white;
+font-weight: bold;
+	border-radius: 15px;
+	box-shadow: 0 0 6px 4px grey;
+}
+
 
 
 
