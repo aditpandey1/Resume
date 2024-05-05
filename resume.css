@@ -443,6 +443,9 @@ display: none;
 #contact-content{
 	width: 95%;
 }
+	#percentage{
+		top:10%;
+	}
 
 }
 
